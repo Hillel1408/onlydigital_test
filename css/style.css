@@ -1,0 +1,150 @@
+.container{
+	max-width: 1600px;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 221px;
+	cursor: default;
+}
+@media (max-width: 1920px){
+	.container{
+		max-width: none;
+		padding-left: 160px;
+		padding-right: 160px;
+	}
+}
+.title{
+  	font-size: 64px;
+  	line-height: 100%;
+  	color: #012B34;
+  	letter-spacing: -0.02em;
+  	margin-bottom: 80px;
+}
+.block__item{
+	padding: 30px 0 30px 0;
+	border-top: 1px solid #E6E6E6;
+}
+.block__item:last-child{
+	border-bottom: 1px solid #E6E6E6;
+}
+.block__title{
+	font-size: 36px;
+	line-height: 120%;
+	color: #02818A;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	cursor: pointer;
+}
+.block__title span{
+	margin-right: 10px;
+}
+.block__title img{
+	margin-top: 3px;
+	width: 20px;
+	height: 20px;
+	transition: transform 300ms;
+}
+.block__title img.active{
+	transform: rotate(135deg);
+}
+.block__text{
+	font-size: 20px;
+	line-height: 150%;
+	color: #000402;
+	max-width: 942px;
+	overflow: hidden;
+    max-height: 0;
+    opacity: 0.8;
+    transition: max-height 300ms;
+}
+.block__text p:first-child{
+	margin-top: 30px;
+}
+.block__text p:not(:last-child){
+	margin-bottom: 10px;
+}
+@media (max-width: 1440px){
+	.container{
+		padding: 80px 120px 240px 120px;
+	}
+	.title{
+		font-size: 48px;
+		margin-bottom: 60px;
+	}
+	.block__title{
+		font-size: 27px;
+	}
+	.block__item{
+		padding: 24px 0 24px 0;
+	}
+	.block__text{
+		font-size: 15px;
+		max-width: 840px;
+	}
+	.block__text p:first-child{
+		margin-top: 20px;
+	}
+	.block__title img{
+		width: 14px;
+		height: 14px;
+	}
+}
+@media (max-width: 1280px){
+	.container{
+		padding: 70px 107px 145px 107px;
+	}
+	.title{
+		font-size: 42px;
+		margin-bottom: 56px;
+	}
+	.block__title{
+		font-size: 24px;
+	}
+	.block__item{
+		padding: 20px 0 20px 0;
+	}
+	.block__text{
+		font-size: 14px;
+		max-width: 640px;
+	}
+	.block__text p:first-child{
+		margin-top: 16px;
+	}
+}
+@media (max-width: 768px){
+	.container{
+		padding: 60px 40px 327px 40px;
+	}
+	.title{
+		font-size: 42px;
+		margin-bottom: 56px;
+	}
+	.block__title{
+		font-size: 27px;
+	}
+	.block__item{
+		padding: 24px 0 24px 0;
+	}
+	.block__text{
+		font-size: 15px;
+		max-width: 612px;
+	}
+}
+@media (max-width: 375px){
+	.container{
+		padding: 50px 24px 12px 24px;
+	}
+	.title{
+		font-size: 30px;
+		margin-bottom: 40px;
+	}
+	.block__title{
+		font-size: 24px;
+	}
+	.block__item{
+		padding: 20px 0 20px 0;
+	}
+	.block__text{
+		max-width: 100%;
+	}
+}
