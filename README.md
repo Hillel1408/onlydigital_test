@@ -1,1 +1,1 @@
-https://daragan-media.com/verstka/onlydigital-test/ - демо
+http://daragan-media.com/verstka/onlydigital-test/ - демо
